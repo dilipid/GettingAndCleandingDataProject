@@ -42,7 +42,7 @@ mean_and_std_features <- grep("-(mean|std)\\(\\)", features[, 2])
 x_data <- x_data[, mean_and_std_features]
 
 # correct the column names
-names(x_data) <- features(mean_and_std_features, 2)
+names(x_data) <- features[mean_and_std_features, 2]
 
 # reading activity labels
 
