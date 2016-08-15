@@ -6,5 +6,8 @@ The dataset being used is: [Human Activity Recognition Using Smartphones](http:/
 
 ## Files
 
-'CodeBook.md' details the code, variables and steps that were taken to cleanup the data
+'CodeBook.md' details the code, variables and steps that were taken to cleanup the data.
+
 'run_analysis.R' contains the code that was run to perform the analysis which can be run in RStudio
+
+The final result file 'tidy_data.txt' has been provided in the project folder.
